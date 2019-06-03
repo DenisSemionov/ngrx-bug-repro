@@ -1,0 +1,21 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "../../out-tsc/lib",
+        "declaration": true,
+        "inlineSources": false,
+        "importHelpers": true,
+    },
+    "angularCompilerOptions": {
+        "annotateForClosureCompiler": true,
+        "skipTemplateCodegen": true,
+        "strictMetadataEmit": false,
+        "fullTemplateTypeCheck": true,
+        "strictInjectionParameters": true,
+        "enableResourceInlining": true
+    },
+    "exclude": [
+        "src/test.ts",
+        "**/*.spec.ts"
+    ]
+}

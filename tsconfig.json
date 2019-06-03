@@ -1,0 +1,29 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "./dist/out-tsc",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es2015",
+        "module": "esnext",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "paths": {
+            "disastrous-library": [
+                "dist/disastrous-library"
+            ],
+            "disastrous-library/*": [
+                "dist/disastrous-library/*"
+            ]
+        }
+    }
+}

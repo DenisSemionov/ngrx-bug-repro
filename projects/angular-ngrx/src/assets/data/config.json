@@ -1,0 +1,6 @@
+{
+    "adminName": "System Administrator",
+    "permissions": [
+        "users"
+    ]
+}
